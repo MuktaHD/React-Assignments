@@ -1,0 +1,33 @@
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.contact-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.contact-item strong {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.contact-item br {
+  margin-bottom: 5px;
+}
+
+.contact-item:last-child {
+  margin-bottom: 0;
+}
