@@ -8,7 +8,6 @@ const menuItems = [
   {name :'Gallary' , link: '/gallery'},
   {name : 'Shopping Cart', link : '/shopping-cart'}
 ];
-
 function Menu() {
   return (
     <ul className="menu">
