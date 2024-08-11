@@ -1,6 +1,5 @@
 import React from 'react';
 import './Menu.css';
-
 const menuItems = [
   { name: 'Home', link: '/' },
   { name: 'ToDoApp', link: '/todo' },
