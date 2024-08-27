@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Question from './Question';
 import AnswerList from './AnswerList';
 
-
 function Quiz({ questions }) {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [selectedAnswers, setSelectedAnswers] = useState([]);
