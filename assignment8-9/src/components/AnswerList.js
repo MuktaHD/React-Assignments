@@ -11,5 +11,4 @@ function AnswerList({ answers, onAnswerSelected }) {
         </ul>
     );
 }
-
 export default AnswerList;
